@@ -1,0 +1,6 @@
+version: '2'
+services:
+ php:
+  image: php:custominfo
+  ports:
+  - 81:80
